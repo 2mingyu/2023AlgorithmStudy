@@ -2,7 +2,6 @@ import sys
 
 n = int(input())
 w_list = []
-w_len_list = []
 for i in range(n):
     w = sys.stdin.readline().strip()
     if w not in w_list:
